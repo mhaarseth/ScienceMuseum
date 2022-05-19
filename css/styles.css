@@ -1,0 +1,152 @@
+@import "index.css";
+@import "kids.css";
+@import "media.css";
+@import "support.css";
+@import "visit.css";
+@import "contact.css";
+@import "variables.css";
+
+html {
+    font-family:"poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }
+
+/* Navigation bar */
+
+nav {
+    max-width: 1300px;
+    margin: 10px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    list-style-type: none;
+   }
+
+.nav-heading {
+ font-size: var(--heading-size-desktop);
+ align-items: center;
+ margin-left: 10px;
+}
+
+.nav-heading-highlight {
+    font-weight: var(--font-highlight-weight);
+    color: var(--index-font-highlight);
+}
+
+.opening-hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admission {
+    display: flex;
+    flex-direction: row;
+}
+
+.opening-hours li {
+    line-height: 1.6rem;
+    font-size: 0.9rem;
+}
+
+.free-highlight {
+    font-weight: var(--font-highlight-weight);
+}
+
+.opening-hours-times {
+    text-align: right;
+}
+
+.nav-divider {
+    width: 12px;
+    height: 235px;
+    background-color: black;
+    margin: 15px 25px 0 25px;
+}
+
+.nav-menu {
+    margin-right: 10px;
+}
+
+.nav-menu ul {
+    padding-left: 0;
+}
+
+.nav-menu li {
+    line-height: 2em;
+    font-size: 1.2rem;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+.nav-menu a:active {
+    text-decoration: underline;
+}
+
+.nav-menu a:visited {
+    text-decoration: none;
+}
+
+nav .current {
+    text-decoration: underline;
+}
+
+/* Footer */
+
+.footer-opening-hours {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-admission {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    font-size: 0.8rem;;
+}
+
+footer {
+    background-color: var(--index-bg-color);
+    font-size: var(--)
+}
+
+.footer-adress ul {
+    padding: 0;
+    margin-left: 20px;
+}
+
+footer .copyright {
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+/* Global styles */

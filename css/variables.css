@@ -1,0 +1,18 @@
+:root {
+    --global-font-color: #000000;
+    --index-bg-color: #CAD0C0;
+    --index-font-highlight: #D92B04;
+    --kids-bg-color: #FDD8DA;
+    --kids-font-highlight: #011BFF;
+    --visit-bg-color: #3C7D96;
+    --visit-font-highlight: #FFFFFF;
+    --exhibitions-bg-color: #657D46;
+    --exhibitions-font-highlight: #FFFFFF;
+    --support-bg-color: #F2BC57;
+    --support-font-highlight: #0442BF;
+    --contact-bg-color: #FFFFFF;
+    --font-highlight-weight: 600;
+    --font-link-weight: 700;
+    --heading-size-desktop: 50px;
+    --heading-size-mobile: 18px;
+}
