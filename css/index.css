@@ -7,12 +7,13 @@
     color: var(--index-font-highlight);
 }
 
+/* News & special events */
+
 .top-background {
     display: flex;
     justify-content: center;
     background-image: url("../images/index-top.jpg");
     background-size: cover;
-    height: 40vh;
     height: 40vh;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -47,11 +48,52 @@
     padding: 0 20px;
 }
 
-.h2-highlight {
-    font-weight: var(--font-highlight-weight);
-    color: var(--index-font-highlight)
+.admission-box {
+    display: flex;
+    flex-direction: row;
 }
 
-.index-explore {
-    margin-top: 60px;
+.admission-box li {
+    list-style-type: none;
+    text-align: left;
+}
+
+
+
+/* Explore the museum */
+
+.index-explore-museum {
+    max-width: 1300px;
+    margin: 60px auto 0 auto;
+}
+
+.index-explore-museum h1 {
+    margin-left: 10px;
+}
+
+.index-explore-museum-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: center;; 
+}
+
+.index-explore-museum-copy {
+    max-width: 500px;
+    min-width: 300px;
+    margin-left: 40px;
+}
+
+.index-explore-museum-copy p {
+    max-width: 100%;
+}
+
+.index-explore-museum-img {
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.index-explore-museum-img img {
+    max-width: 100%;
 }

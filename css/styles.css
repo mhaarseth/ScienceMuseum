@@ -156,6 +156,11 @@ h1 {
     font-weight: var(--font-link-weight);
 }
 
+.h-highlight {
+    font-weight: var(--font-highlight-weight);
+    color: var(--index-font-highlight)
+}
+
 /* 857px and below */
 
 @media only screen and (max-width: 857px) {
@@ -179,6 +184,31 @@ h1 {
     }
 }
 
+/* 750px and below */
+
+@media only screen and (max-width: 750px) {
+    .news p, .news a {
+        font-size: 0.8rem;
+        margin-top: 0;
+    }
+
+    .index-explore-museum-container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .index-explore-museum-copy {
+        margin: 0 40px;
+    }
+
+}
+
+/* 593px and above */
+@media only screen and (min-width: 593px) {
+    .admission-box {
+        display: none;
+    }
+}
+
 /* 592px and below */
 
 @media only screen and (max-width: 592px) {
@@ -190,6 +220,21 @@ h1 {
         display: none;
     }
 
+    .admission-box ul {
+        padding: 0;
+    }
+
+    .opening-hours-times-box li {
+        text-align: right;
+    }
+
+    .news {
+        max-width: 780px;
+        max-height: 220px;
+        align-self: center;
+
+    }
+
     .nav-divider {
         width: 5px;
         height: 160px;
@@ -199,7 +244,8 @@ h1 {
         font-size: 0.8rem;
     }
 
-    .news {
+    .news h2, 
+    .news-container {
         display: none;
     }
 
