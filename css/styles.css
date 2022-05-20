@@ -150,6 +150,10 @@ h1 {
     font-weight: 400;
 }
 
+.h1-hidden {
+    visibility: hidden;
+}
+
 .page-link {
     font-size: 1.2rem;
     color: black;
