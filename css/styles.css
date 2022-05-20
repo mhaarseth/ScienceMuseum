@@ -153,34 +153,40 @@ footer .copyright {
     .nav-heading {
         font-size: var(--heading-size-tablet);
     }
-}
 
-/* 725px and below */
-
-@media only screen and (max-width: 725px) {
-    .nav-heading {
-      font-size: var(--heading-size-mobile);
-    }
-
-    
-}
-
-/* 584px and below */
-
-@media only screen and (max-width: 584px) {
-    .opening-hours {
-        display: none;
+    .opening-hours li {
+        line-height: 1.1rem;
+        font-size: 0.7rem;
     }
 
     .nav-divider {
         width: 8px;
         height: 160px;
-        background-color: black;
-        margin: 15px 25px 0 25px;
     }
 
     .nav-menu li {
-        line-height: 2em;
+        line-height: 2.1em;
         font-size: 0.8rem;
+    }
+}
+
+/* 592px and below */
+
+@media only screen and (max-width: 592px) {
+    .nav-heading {
+        font-size: var(--heading-size-mobile);
+      }
+
+    .opening-hours {
+        display: none;
+    }
+
+    .nav-divider {
+        width: 5px;
+        height: 150px;
+    }
+
+    .nav-menu li {
+        font-size: 0.7rem;
     }
 }
