@@ -262,7 +262,7 @@ h3 {
 
     .news-mobile p,
     .news-mobile a {
-        margin-left: 40px;
+        padding: 0 40px;
     }
 
     .news {
