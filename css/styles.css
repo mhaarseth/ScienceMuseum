@@ -7,7 +7,7 @@
 @import "exhibitions.css";
 
 html {
-    font-family:"poppins", sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 body {
@@ -207,6 +207,10 @@ h1 {
     .admission-box {
         display: none;
     }
+
+    .news-mobile {
+        display: none;
+    }
 }
 
 /* 592px and below */
@@ -220,6 +224,10 @@ h1 {
         display: none;
     }
 
+    .top-background {
+        height: 50vh;
+    }
+
     .admission-box ul {
         padding: 0;
     }
@@ -228,11 +236,31 @@ h1 {
         text-align: right;
     }
 
+    .news-container-mobile {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .news-mobile h2 {
+        margin: 60px 0 0 10px;
+    }
+
+    .news-mobile h3 {
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .news-mobile p,
+    .news-mobile a {
+        margin-left: 40px;
+    }
+
     .news {
         max-width: 780px;
         max-height: 220px;
         align-self: center;
-
     }
 
     .nav-divider {
