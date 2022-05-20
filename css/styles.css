@@ -126,12 +126,11 @@ footer ul {
 }
 
 footer li {
-    font-size: 0.8rem;;
+    font-size: 0.8rem;
 }
 
 footer {
     background-color: var(--index-bg-color);
-    font-size: var(--)
 }
 
 .footer-adress ul {
@@ -188,5 +187,13 @@ footer .copyright {
 
     .nav-menu li {
         font-size: 0.8rem;
+    }
+
+    footer li {
+        font-size: 0.6rem;;
+    }
+    
+    footer .copyright {
+        font-size: 0.6rem;
     }
 }
