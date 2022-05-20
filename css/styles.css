@@ -144,14 +144,14 @@ footer .copyright {
     text-align: center;
 }
 
-/* Global styles */
+/* Miscellanous global styles */
 
 
 /* 857px and below */
 
 @media only screen and (max-width: 857px) {
-    .opening-hours {
-      display: none;
+    .nav-heading {
+        font-size: var(--heading-size-tablet);
     }
 }
 
@@ -160,5 +160,27 @@ footer .copyright {
 @media only screen and (max-width: 725px) {
     .nav-heading {
       font-size: var(--heading-size-mobile);
+    }
+
+    
+}
+
+/* 584px and below */
+
+@media only screen and (max-width: 584px) {
+    .opening-hours {
+        display: none;
+    }
+
+    .nav-divider {
+        width: 8px;
+        height: 160px;
+        background-color: black;
+        margin: 15px 25px 0 25px;
+    }
+
+    .nav-menu li {
+        line-height: 2em;
+        font-size: 0.8rem;
     }
 }
