@@ -145,6 +145,16 @@ footer .copyright {
 
 /* Miscellanous global styles */
 
+h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.page-link {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: var(--font-link-weight);
+}
 
 /* 857px and below */
 
@@ -187,6 +197,10 @@ footer .copyright {
 
     .nav-menu li {
         font-size: 0.8rem;
+    }
+
+    .news {
+        display: none;
     }
 
     footer li {
