@@ -1,0 +1,8 @@
+.contact-body {
+    background-color: var(--contact-bg-color);
+}
+
+.contact-nav-heading-highlight {
+    font-weight: var(--font-highlight-weight);
+    color: var(--contact-font-highlight);
+}

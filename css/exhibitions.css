@@ -1,0 +1,8 @@
+.exhibitions-body {
+    background-color: var(--exhibitions-bg-color);
+}
+
+.exhibitions-nav-heading-highlight {
+    font-weight: var(--font-highlight-weight);
+    color: var(--exhibitions-font-highlight);
+}

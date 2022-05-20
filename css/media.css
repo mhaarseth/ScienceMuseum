@@ -1,0 +1,17 @@
+/* 857px and below */
+
+@media screen and (max-width: 857px) {
+    .opening-hours {
+      display: none;
+    }
+}
+
+
+
+/* 725px and below */
+
+@media screen and (max-width: 725px) {
+    .nav-heading {
+      font-size: var(--heading-size-mobile);
+    }
+}

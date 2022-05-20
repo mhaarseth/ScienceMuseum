@@ -1,0 +1,8 @@
+.visit-body {
+    background-color: var(--visit-bg-color);
+}
+
+.visit-nav-heading-highlight {
+    font-weight: var(--font-highlight-weight);
+    color: var(--visit-font-highlight);
+}

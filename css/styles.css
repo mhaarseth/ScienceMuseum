@@ -5,6 +5,7 @@
 @import "visit.css";
 @import "contact.css";
 @import "variables.css";
+@import "exhibitions.css";
 
 html {
     font-family:"poppins", sans-serif;
@@ -40,11 +41,6 @@ nav ul {
  font-size: var(--heading-size-desktop);
  align-items: center;
  margin-left: 10px;
-}
-
-.nav-heading-highlight {
-    font-weight: var(--font-highlight-weight);
-    color: var(--index-font-highlight);
 }
 
 .opening-hours {

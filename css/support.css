@@ -1,0 +1,8 @@
+.support-body {
+    background-color: var(--support-bg-color);
+}
+
+.support-nav-heading-highlight {
+    font-weight: var(--font-highlight-weight);
+    color: var(--support-font-highlight);
+}

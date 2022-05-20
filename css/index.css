@@ -1,3 +1,8 @@
 .index-body {
     background-color: var(--index-bg-color);
 }
+
+.index-nav-heading-highlight {
+    font-weight: var(--font-highlight-weight);
+    color: var(--index-font-highlight);
+}
