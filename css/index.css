@@ -37,6 +37,10 @@
     width: 100%;
 }
 
+.news .h-highlight {
+    color: var(--index-font-highlight)
+}
+
 .news-container {
     display: flex;
     flex-wrap: nowrap;
@@ -64,11 +68,15 @@
 
 .index-explore-museum {
     max-width: 1300px;
-    margin: 60px auto 0 auto;
+    margin: 40px auto 0 auto;
 }
 
 .index-explore-museum h2 {
     margin-left: 10px;
+}
+
+.index-explore-museum .h-highlight {
+    color: var(--index-font-highlight)
 }
 
 .index-explore-museum-container {
@@ -97,3 +105,51 @@
 .index-explore-museum-img img {
     max-width: 100%;
 }
+
+/* Explore our exhibitions */
+
+.index-exhibitions .h-highlight {
+    color: var(--exhibitions-font-highlight);
+}
+
+.index-exhibitions {
+    background-color: var(--exhibitions-bg-color);
+    margin-top: 40px;
+}
+
+.index-exhibitions-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.index-exhibitions h2 {
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.index-exhibitions-boxes {
+    max-width: 1300px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.index-exhibitions-box {
+    max-width: 433px;
+    text-align: center;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.index-exhibitions-box p {
+ padding: 5px;
+}
+
+.index-exhibitions-box-img {
+    max-width: 433px;
+}
+
+.index-exhibitions-box-img img {
+    max-width: 100%;
+}
+
