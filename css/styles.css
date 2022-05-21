@@ -382,6 +382,11 @@ h3 {
         padding-left: 10px;
     }
 
+    /* Get involved */
+
+    .support-cards-container {
+        flex-direction: column;
+    }
 
     /* footer */
 

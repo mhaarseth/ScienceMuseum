@@ -6,3 +6,59 @@
     font-weight: var(--font-highlight-weight);
     color: var(--support-font-highlight);
 }
+
+.support-body .h-highlight {
+    color: var(--support-font-highlight);
+}
+
+.support-body h2 {
+    font-size: 2rem;
+}
+
+/* Cards */
+
+.support-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.support-container h2 {
+    text-align: left;
+    align-self: center;
+}
+
+.support-cards-container {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.support-card {
+    padding: 20px;
+    margin: 0 10px;
+    flex: 1;
+}
+
+.support-container a {
+    align-self: center;
+}
+
+/* Other support */
+
+.support-narrow-img img {
+    margin: 40px 0;
+}
+
+.other-support-container {
+    display:flex;
+    flex-direction: column;
+}
+
+.other-support-container h2 {
+    margin: 20px 20px 0 10px;
+    align-self: center;
+}
