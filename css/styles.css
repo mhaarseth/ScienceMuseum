@@ -299,6 +299,17 @@ h3 {
         display: none;
     }
 
+    .nav-divider {
+        width: 5px;
+        height: 160px;
+    }
+
+    .nav-menu li {
+        font-size: 0.8rem;
+    }
+
+    /* Home */
+
     .top-background {
         height: 60vh;
     }
@@ -342,15 +353,6 @@ h3 {
         align-self: center;
     }
 
-    .nav-divider {
-        width: 5px;
-        height: 160px;
-    }
-
-    .nav-menu li {
-        font-size: 0.8rem;
-    }
-
     .news h2, 
     .news-container {
         display: none;
@@ -360,9 +362,13 @@ h3 {
         flex-direction: column;
     }
 
-    .kids-top h1 {
-        font-size: 0.9rem;
+    /* Kid's club */
+
+    .kids-club h1 {
+        font-size: 2rem;
     }
+
+    /* footer */
 
     footer li {
         font-size: 0.6rem;
