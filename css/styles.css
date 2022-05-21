@@ -7,7 +7,7 @@
 @import "exhibitions.css";
 
 html {
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -131,6 +131,7 @@ footer li {
 
 footer {
     background-color: var(--index-bg-color);
+    margin-top: 40px;
 }
 
 .footer-adress ul {
@@ -168,6 +169,73 @@ h3 {
     font-weight: var(--font-highlight-weight);
 }
 
+/* Global image containers and images */
+
+
+/* narrow images covering page */
+
+.narrow-image {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.narrow-image-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.narrow-image h2 {
+    width: 100%;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.narrow-image-copy p {
+    padding: 10px;
+    max-width: 1300px;
+}
+
+.narrow-image-img {
+    max-width: 1300px;
+    min-width: 300px;
+    margin: 0 10px;
+}
+
+.narrow-image-img img {
+    width: 100%;
+}
+
+/* Image and text sharing width */
+
+.image-and-text-share {
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.image-and-text-share-copy {
+    max-width: 500px;
+    min-width: 300px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.image-and-text-share p {
+    max-width: 100%;
+}
+
+.image-and-text-share-img {
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.image-and-text-share-img img {
+    max-width: 100%;
+}
+
 /* 857px and below */
 
 @media only screen and (max-width: 857px) {
@@ -199,11 +267,11 @@ h3 {
         margin-top: 0;
     }
 
-    .index-explore-museum-container {
+    .image-and-text-share {
         flex-wrap: wrap-reverse;
     }
 
-    .index-explore-museum-copy {
+    .image-and-text-share-copy {
         margin: 0 40px;
     }
 

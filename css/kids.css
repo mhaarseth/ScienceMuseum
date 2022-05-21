@@ -2,7 +2,30 @@
     background-color: var(--kids-bg-color);
 }
 
-.kids-nav-heading-highlight {
+.kids-nav-heading-highlight, 
+.kids-body .h-highlight {
     font-weight: var(--font-highlight-weight);
     color: var(--kids-font-highlight);
+}
+
+/* Header */
+
+.kids-top {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kids-top-h1 {
+    text-align: left;
+}
+
+.kids-top h1 .h-highlight {
+    color: var(--kids-font-highlight);
+}
+
+.kids-top-copy {
+    max-width: 800px;
+    margin: 0 10px;
 }

@@ -79,33 +79,6 @@
     color: var(--index-font-highlight);
 }
 
-.index-explore-museum-container {
-    display: flex;
-    flex-direction: row;
-    max-width: 1300px;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-.index-explore-museum-copy {
-    max-width: 500px;
-    min-width: 300px;
-    margin-left: 40px;
-}
-
-.index-explore-museum-copy p {
-    max-width: 100%;
-}
-
-.index-explore-museum-img {
-    max-width: 500px;
-    min-width: 300px;
-}
-
-.index-explore-museum-img img {
-    max-width: 100%;
-}
-
 /* Explore our exhibitions */
 
 .index-exhibitions .h-highlight {
@@ -157,75 +130,19 @@
 
 .index-kids {
     background-color: var(--kids-bg-color);
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0;
-}
-
-.index-kids-container {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.index-kids h2 {
-    width: 100%;
-    margin-left: 10px;
-    text-align: left;
 }
 
 .index-kids .h-highlight {
     color: var(--kids-font-highlight);
 }
 
-.index-kids-img {
-    max-width: 1300px;
-    min-width: 300px;
-    margin: 0 10px;
-}
-
-.index-kids-img img {
-    width: 100%;
-}
-
-.index-kids-copy p {
-    padding: 10px;
-}
 
 /* Explore the possibilites */
 
 .index-support {
     background-color: var(--support-bg-color);
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0;
-}
-
-.index-support-container {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.index-support h2 {
-    width: 100%;
-    margin-left: 10px;
-    text-align: left;
 }
 
 .index-support .h-highlight {
     color: var(--support-font-highlight);
-}
-
-.index-support-img {
-    max-width: 1300px;
-    min-width: 300px;
-    margin: 0 10px;
-}
-
-.index-support-img img {
-    width: 100%;
-}
-
-.index-support-copy p {
-    padding: 10px;
-    max-width: 1300px;
 }
