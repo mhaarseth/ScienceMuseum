@@ -6,3 +6,23 @@
     font-weight: var(--font-highlight-weight);
     color: var(--exhibitions-font-highlight);
 }
+
+.exhibitions-body h2 .h-highlight {
+    color: var(--exhibitions-font-highlight);
+}
+
+/* Visiting exhibitions */
+
+.visiting-exhibitions-container,
+.regular-exhibitions-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+.visiting-exhibitions-container h2,
+.regular-exhibitions-container h2 {
+    margin: 50px 0 0 10px;
+    width: 100%;
+}
+
