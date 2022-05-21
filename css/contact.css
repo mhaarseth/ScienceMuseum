@@ -6,3 +6,59 @@
     font-weight: var(--font-highlight-weight);
     color: var(--contact-font-highlight);
 }
+
+/* Heading */
+
+.contact {
+    text-align: left;
+}
+
+.contact-h1-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.contact-h1-container h1 {
+    margin: 20px 10px;
+}
+
+/* Form */
+
+form label {
+    font-weight: 400;
+}
+
+.contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .contact-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 570px;
+    width: 100%;
+    padding: 40px;
+  }
+  
+  .contact-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 570px;
+    width: 100%;
+    padding: 40px;
+  }
+  
+  textarea {
+    height: 200px;
+    margin-top: 25px;
+  }
+  
+  .contact-cta-button {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+  }

@@ -14,11 +14,11 @@
 <body class="contact-body">
     <header>
         <nav>
-            <div class="nav-heading">
+            <h1 class="nav-heading">
                 Community 
                 <br>
                 <span class="contact-nav-heading-highlight">Science</span> Museum
-            </div>
+            </h1>
             <div class="opening-hours">
                 <div class="admission">
                     <div class="opening-hours-days">
@@ -59,7 +59,38 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="contact">
+        <div class="contact-h1-container">
+            <h1>
+                <span class="h-highlight">Get in touch</span> for <br>
+                bookings, feedback or questions, or to <br>
+                get involved.
+            </h1>
+        </div>
+
+        <form method="GET">
+            <div class="contact-left">
+                <label for="full-name">Full name:</label>
+                <input type="text" Name="Full name" id="full-name" placeholder="Your name">
+                <label for="e-mail">E-mail:</label>
+                <input type="email" Name="E-mail" id="e-mail" Placeholder="Your e-mail address">
+                <label>Subject:</label>
+                <select name="inquiry" id="inquiry">
+                    <option value="book-a-tour">Book a tour</option>
+                    <option value="kid's club">Sign up for one of our kid clubs</option>
+                    <option value="support">Support</option>
+                    <option value="internship">Internship</option>
+                    <option value="volunteering">Volunteering</option>
+                    <option value="researcher">I am a researcher</option>
+                    <option value="question">Questions</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+            </div>
+            <div class="contact-right">
+                <textarea id="message" name="message" placeholder="Your message.."></textarea>
+                <input type="submit" class="contact-cta-button" value="Send">
+            </div>
+        </form>
 
     </main>
     <footer>
