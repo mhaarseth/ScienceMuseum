@@ -6,3 +6,97 @@
     font-weight: var(--font-highlight-weight);
     color: var(--visit-font-highlight);
 }
+
+/* Plan your visit */
+
+.visit-admission {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.visit-admission h2 {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.visit-admission h2 .h-highlight {
+    color: var(--visit-font-highlight);
+}
+
+
+/* Admission information */
+
+.admission-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.admission-hours {
+    flex: 1;
+    margin: 0
+}
+
+.opening-hours-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+.admission-hours-days li,
+.admission-hours-times li {
+    list-style-type: none;
+}
+
+.admission-hours-days ul,
+.admission-hours-times ul {
+    margin: 0 20px;
+    padding: 0;
+}
+
+.admission-hours-times ul {
+    text-align: right;
+}
+
+.admission-hours h3 {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.admission-location {
+    margin: 0 10px;
+    flex: 1;
+}
+
+.admission-price {
+    margin: 0 10px;
+    flex: 1;
+}
+
+.admission-tours {
+    margin: 0 10px;
+    flex: 1;
+}
+
+.admission-accessibility {
+    margin: 30px 10px;
+}
+
+.admission-accessibility p {
+    padding-left: 10px;
+}
+
+.admission-hours-location-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 2;
+
+}
+
+.admission-price-tours-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 2;
+}

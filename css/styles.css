@@ -257,6 +257,10 @@ h3 {
         line-height: 2.1em;
         font-size: 0.8rem;
     }
+
+    .admission-container {
+        flex-direction: column;
+    }
 }
 
 /* 750px and below */
@@ -367,6 +371,14 @@ h3 {
     .kids-club h1 {
         font-size: 2rem;
     }
+
+    /* Plan your visit */
+
+    /.admission-hours-location-wrapper,
+    .admission-price-tours-wrapper {
+        flex-direction: column;
+    }
+
 
     /* footer */
 
