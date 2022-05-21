@@ -360,6 +360,10 @@ h3 {
         flex-direction: column;
     }
 
+    .kids-top h1 {
+        font-size: 0.9rem;
+    }
+
     footer li {
         font-size: 0.6rem;
     }
