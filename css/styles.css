@@ -312,6 +312,10 @@ h3 {
         font-size: 0.8rem;
     }
 
+    .page-link {
+        font-size: 0.9rem;
+    }
+
     /* Home */
 
     .top-background {
@@ -374,9 +378,8 @@ h3 {
 
     /* Plan your visit */
 
-    /.admission-hours-location-wrapper,
-    .admission-price-tours-wrapper {
-        flex-direction: column;
+     .admission-price p{
+        padding-left: 10px;
     }
 
 
