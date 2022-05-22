@@ -171,6 +171,14 @@ h3 {
 
 /* Global image containers and images */
 
+.line-break {
+    display: block;
+}
+
+.no-highlight {
+    color: var(--global-font-color);
+    font-weight: 400;
+}
 
 /* narrow images covering page */
 
@@ -198,7 +206,6 @@ h3 {
 
 .narrow-image-img {
     max-width: 1300px;
-    min-width: 300px;
     margin: 0 10px;
 }
 
@@ -218,7 +225,6 @@ h3 {
 
 .image-and-text-share-copy {
     max-width: 500px;
-    min-width: 300px;
     margin-left: 40px;
     text-align: left;
 }
@@ -229,7 +235,6 @@ h3 {
 
 .image-and-text-share-img {
     max-width: 500px;
-    min-width: 300px;
 }
 
 .image-and-text-share-img img {
@@ -276,7 +281,7 @@ h3 {
     }
 
     .image-and-text-share-copy {
-        margin: 0 40px;
+        margin: 0 20px;
     }
 
 }
