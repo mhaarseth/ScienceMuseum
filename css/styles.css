@@ -240,6 +240,35 @@ h3 {
     max-width: 100%;
 }
 
+/* 1576px height and below */
+
+@media only screen and (max-height: 1080px) {
+.news-left,
+.news-right {
+    font-size: 0.9rem;
+}
+
+}
+/* 800px height and below */
+
+@media only screen and (max-height: 810px) {
+    .news-left,
+    .news-right,
+    .news h2,
+    .news a {
+        font-size: 0.8rem;
+    }
+}
+
+/* 375px height and below */
+
+@media only screen and (max-height: 428px) {
+    .news,
+    .top-background {
+        display: none;
+    }
+}
+
 /* 857px and below */
 
 @media only screen and (max-width: 857px) {

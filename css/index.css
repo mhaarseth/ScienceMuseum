@@ -17,7 +17,6 @@
     height: 40vh;
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: top;
 }
 
 .news {
@@ -26,11 +25,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 780px;
-    max-height: 350px;
     border: 10px solid black;
     background-color: var(--index-bg-color);
     justify-content: space-between;
-    margin: 50px 10px 0 10px;
+    margin: 30px 10px;
 }
 
 .news h2 {
@@ -44,11 +42,12 @@
 .news-container {
     display: flex;
     flex-wrap: nowrap;
+
 }
 
 .news-left,
 .news-right {
-    width: 50%;
+    flex: 1;
     padding: 0 20px;
 }
 
@@ -88,6 +87,8 @@
 .index-exhibitions {
     background-color: var(--exhibitions-bg-color);
     margin-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .index-exhibitions-container {
@@ -98,6 +99,7 @@
 .index-exhibitions h2 {
     margin-left: 10px;
     padding-top: 20px;
+    text-align: left;
 }
 
 .index-exhibitions-boxes {
@@ -124,6 +126,10 @@
 
 .index-exhibitions-box-img img {
     max-width: 100%;
+}
+
+.index-exhibitions a {
+
 }
 
 /* Explore your curiosity */
