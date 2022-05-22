@@ -25,6 +25,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 780px;
+    max-height: 320px;
     border: 10px solid black;
     background-color: var(--index-bg-color);
     justify-content: space-between;
