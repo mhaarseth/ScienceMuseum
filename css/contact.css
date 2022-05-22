@@ -42,7 +42,7 @@ form label {
     flex-direction: column;
     max-width: 570px;
     width: 100%;
-    padding: 40px;
+    margin: 10px;
   }
   
   .contact-right {
@@ -50,12 +50,11 @@ form label {
     flex-direction: column;
     max-width: 570px;
     width: 100%;
-    padding: 40px;
+    margin: 10px;
   }
   
   textarea {
     height: 200px;
-    margin-top: 25px;
   }
   
   .contact-cta-button {
