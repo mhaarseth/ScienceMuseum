@@ -255,8 +255,9 @@ h3 {
     .news-left,
     .news-right,
     .news h2,
+    .news h3,
     .news a {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 }
 

@@ -33,6 +33,15 @@
 
 .news h2 {
     width: 100%;
+    margin: 5px 0 0 0;
+}
+
+.news h3 {
+    margin: 0;
+}
+
+.news p {
+    margin: 5px 0 5px 0;
 }
 
 .news .h-highlight {
@@ -126,10 +135,6 @@
 
 .index-exhibitions-box-img img {
     max-width: 100%;
-}
-
-.index-exhibitions a {
-
 }
 
 /* Explore your curiosity */
