@@ -224,7 +224,7 @@ h3 {
 
 .image-and-text-share-copy {
     max-width: 500px;
-    padding-left: 40px;
+    padding-left: 20px;
     text-align: left;
 }
 
@@ -368,6 +368,11 @@ h3 {
     .news h2, 
     .news-container {
         display: none;
+    }
+
+    .news-left-mobile h3,
+    .news-right-mobile h3 {
+        padding-left: 30px;
     }
 
     .index-exhibitions-boxes {
