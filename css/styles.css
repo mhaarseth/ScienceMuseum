@@ -259,6 +259,10 @@ h3 {
     .news a {
         font-size: 0.9rem;
     }
+
+        .news h2 {
+            margin-bottom: 5px;
+        }
 }
 
 /* 375px height and below */
