@@ -1,6 +1,6 @@
 # Community Science Museum
 
-![image](https://raw.githubusercontent.com/mhaarseth/ScienceMuseum/main/images/CommunityScienceMuseum.jpg?token=GHSAT0AAAAAAB3M5WPWDHIGIXFWOOEKPDSSY4YQSIA)
+![image](https://github.com/mhaarseth/ScienceMuseum/blob/main/images/CommunityScienceMuseum.jpg?raw=true)
 
 Semester project at Noroff.
 
